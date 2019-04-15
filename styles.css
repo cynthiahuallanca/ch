@@ -1,0 +1,106 @@
+
+.carousel{
+    background: #2f4357;
+    margin: auto;
+}
+ 
+.bs-example{
+	margin: 20px;
+}
+
+/* Prevent carousel from being distorted if for some reason image doesn't load */
+.carousel-inner {
+    width: 280px;
+}
+
+.title {
+    color: rgb(13, 13, 133);
+    font-size: 25pt;
+    font-family: Gill Sans MT; 
+    
+}
+
+.container-fluid {
+    padding-left: 80px;
+    padding-top: 80px;
+}
+
+/*Analyst&More Card title*/
+.card-title {
+    font-size:14pt;
+}
+
+/*Analyst&More Card text*/
+.card-text {
+    font-size: 10pt;
+}
+
+/*Analyst&More Card button*/
+.btn-primary {
+    font-size: 10pt;
+}
+
+.side_bar {
+    padding-right: 100px;
+}
+
+.landpage_title {
+    text-align: Left;
+    color: rgb(44, 9, 126);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.landpage_post{
+    color: rgb(44, 9, 126);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#landpage_body {
+    background-image: url('Images/General/CH1.jpeg');
+    background-color: rgb(31, 94, 94);
+    background-repeat: no-repeat;
+    background-position:top ;
+    background-size: cover;
+    background-blend-mode: lighten;
+  }
+
+.aboutme_u {
+    width: 30%;
+    height: 70%;
+}
+
+.aboutme_v {
+    width: 90%;
+    height: 90%;
+}
+
+.campo_img {
+    display: block;
+    margin:auto; 
+    filter: grayscale() ;
+
+  }
+
+ @media (max-width: 500px)  { 
+      .campo_img {
+          width: 80%;
+          height: 40%;
+        }
+    }
+
+#row1 {
+    background-color: rgb(235, 232, 232);
+    background-blend-mode: lighten;
+}
+
+#row2 {
+    background-color: white;
+}
+
+#row3 {
+    background-color: rgb(235, 232, 232);
+}
+
+#row4 {
+    background-color: white;
+}
